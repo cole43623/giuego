@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserisci Squadre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+		li {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+			background: #e9ecef;
+			margin: 5px 0;
+			border-radius: 4px;
+		}
+
+		li span {
+			margin-right: 10px;
+		}
+
+		button.remove {
+			background: transparent;
+			border: none;
+			color: #dc3545;
+			font-size: 18px;
+			cursor: pointer;
+		}
+
+		button.remove:hover {
+			color: #c82333;
+		}
+
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container button {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="app">
+        <h1 id="titolozzo">Inserisci nomi squadre</h1>
+        <div id="listSection">
+            <input type="text" id="teamName" placeholder="Nome della 1° squadra" />
+            <button onclick="addTeam()">Aggiungi</button>
+            <ul id="teamList"></ul>
+            <div class="button-container" id="buttonContainer">
+                <button onclick="confirmTeams()">Conferma</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+		let teamCount = 0;
+		const teamNames = [];
+
+		function addTeam() {
+			const name = document.getElementById('teamName').value.trim();
+			if (name === '') {
+				alert('Il nome della squadra non può essere vuoto.');
+				return;
+			}
+			document.getElementById("teamName").placeholder = "Nome della " + (teamCount + 2) + "° squadra";
+			teamNames.push(name);
+			teamCount++;
+			document.getElementById('teamName').value = '';
+			displayTeamList();
+		}
+
+		function displayTeamList() {
+			const listElement = document.getElementById('teamList');
+			listElement.innerHTML = '';
+			teamNames.forEach((team, index) => {
+				const li = document.createElement('li');
+				const span = document.createElement('span');
+				span.textContent = `${index + 1}. ${team}`;
+				const removeButton = document.createElement('button');
+				removeButton.textContent = 'X';
+				removeButton.className = 'remove';
+				removeButton.onclick = () => removeTeam(index);
+				li.appendChild(span);
+				li.appendChild(removeButton);
+				listElement.appendChild(li);
+			});
+		}
+
+		function removeTeam(index) {
+			teamNames.splice(index, 1);
+			teamCount--;
+			document.getElementById("teamName").placeholder = "Nome della " + (teamCount + 1) + "° squadra";
+			displayTeamList();
+		}
+
+		function confirmTeams() {
+			if (teamCount == 0) {
+				alert('Errore, inserisci almeno una squadra');
+				return;
+			}
+			const length = teamNames.length + 1;
+			for (let i = 0; i < length; i++) teamNames.push(0);
+			const arrayAsString = JSON.stringify(teamNames);
+			sessionStorage.setItem("punti", arrayAsString);
+			console.log('Le squadre sono state confermate:\n' + teamNames.join('\n'));
+			window.location.href = "unos.html";
+		}
+    </script>
+</body>
+</html>

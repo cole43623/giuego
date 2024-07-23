@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: none;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #007BFF;
+            background-color: #fff;
+            color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button-container button.selected {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .confirm-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #28a745;
+            background-color: #fff;
+            color: #28a745;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .confirm-button:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+        .start-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #007BFF;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+		.timer-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #ccc;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            display: none; /* Initially hidden */
+        }
+        .timer-bar div {
+            height: 100%;
+            background-color: #007BFF;
+            width: 100%;
+			transition: width 1s linear;
+        }
+		#countdown {
+			font-size: 20px;
+			margin-top: 10px;
+			font-weight: bold;
+			color: #333;
+		}
+
+
+    </style>
+</head>
+<body>
+    <script src="lisa.js"></script>
+    <h1 id="titolo"></h1>
+    <button class="start-button" id="startButton">Start</button>
+    <div class="button-container" id="buttonContainer"></div>
+    <button class="confirm-button" id="confirmButton" style="display: none;">Conferma</button>
+    <div class="timer-bar" id="timerBar">
+        <div></div>
+    </div>
+	<div id="countdown" style="font-size: 20px; margin-top: 10px; display: none;">90</div>
+
+
+    <script>
+        var url = new URL(window.location.href);
+        var nr = parseInt(url.searchParams.get("nr"));
+        document.getElementById('titolo').textContent = Lisa[nr][0];
+		const storedPoints = sessionStorage.getItem("punti");
+        const punti = JSON.parse(storedPoints);
+
+		function start() {
+			document.getElementById('startButton').style.display = 'none';
+			const buttonContainer = document.getElementById('buttonContainer');
+			buttonContainer.style.display = 'flex';
+			const timerBar = document.getElementById('timerBar');
+			timerBar.style.display = 'block';
+			const countdownDisplay = document.getElementById('countdown');
+			countdownDisplay.style.display = 'block';
+
+			Lisa[nr].slice(1).forEach(item => {
+				const button = document.createElement('button');
+				button.textContent = item;
+				button.addEventListener('click', () => {
+					button.classList.toggle('selected');
+				});
+				buttonContainer.appendChild(button);
+			});
+
+			document.getElementById('confirmButton').style.display = 'block';
+			document.getElementById('confirmButton').addEventListener('click', () => {
+			console.log(punti);
+				const selectedButtons = document.querySelectorAll('.button-container button.selected');
+				console.log(`You have selected ${selectedButtons.length} item(s).`);
+				punti[punti[punti.length - 1] + (punti.length - 1) / 2] += selectedButtons.length;
+				punti[punti.length - 1] += 1;
+				punti[punti.length - 1] %= (punti.length - 1) / 2;
+				console.log(punti);
+				sessionStorage.setItem("punti", JSON.stringify(punti));
+				console.log(punti[punti.length - 1]);
+				if (punti[punti.length - 1]>0) window.location.href = "unos.html";
+				else window.location.href = "tres.html";
+			});
+
+			let timeLeft = 89;
+			const timerBarInner = timerBar.firstElementChild;
+
+			countdownDisplay.textContent = timeLeft;
+
+			const timerInterval = setInterval(() => {
+				timeLeft--;
+				timerBarInner.style.width = `${(timeLeft / 89) * 100}%`;
+				countdownDisplay.textContent = timeLeft; // Update countdown display
+
+				if (timeLeft <= 0) {
+					clearInterval(timerInterval);
+					document.querySelectorAll('.button-container button').forEach(button => {
+						button.disabled = true;
+					});
+				}
+			}, 1000);
+		}
+
+        document.getElementById('startButton').addEventListener('click', start);
+    </script>
+</body>
+</html>
