@@ -95,5 +95,9 @@ const Lisa =[
 ['Titanic', 'RMS', 'Iceberg', 'Southampton', 'Leonardo DiCaprio', 'Rose', '1912', 'Jack Dawson', 'White Star Line', 'Titan', 'James Cameron', 'Sopravvissuti', 'Prima classe', 'Inaffondabile', "Cuore dell'oceano", 'New York'],
 ['Brasile', 'Rio de Janeiro', 'Carnevale', 'Amazonia', 'Samba', 'Brasilia', 'Copacabana', 'Pelé', 'Caipirinha', 'Favelas', 'Calcio', 'Cristo Redentore', 'Pantanal', 'Bossa Nova', 'Café', 'Amazzoni'],
 ['Gandhi', 'Pacifismo', 'Indipendenza', 'Marcia del sale', 'Ahimsa', 'Mahatma', 'Satyagraha', 'India', 'Avvocato', 'Assassinio', 'Sudafrica', 'Harijan', 'Autogoverno', 'Bapu', 'Dharma', 'Treno'],
-['Einstein', 'Relatività', 'E=mc²', 'Fisica', 'Nobel', 'Bomba atomica', 'Spazio-tempo', 'Cervello', 'Infinito', 'Quanti', 'Bose', 'Curvatura', 'Atomo', 'Universo', 'Energia', 'Germania']
+['Einstein', 'Relatività', 'E=mc²', 'Fisica', 'Nobel', 'Bomba atomica', 'Spazio-tempo', 'Cervello', 'Infinito', 'Quanti', 'Bose', 'Curvatura', 'Atomo', 'Universo', 'Energia', 'Germania'],
+['Orchestra', 'Direttore', 'Sinfonia', 'Violino', 'Fiati', 'Percussioni', 'Whiplash', 'Bacchetta', 'Partitura', 'Concerto', 'Strumenti ad arco', 'Oboe', 'Corno', 'Triagolo', 'London Symphony Orchestra', 'Giuseppe Vessicchio'],
+['Pokémon', 'Pikachu', 'Ash Ketchum', 'Pokédex', 'Team Rocket', 'Shiny', 'Capopalestra', 'Kanto', 'Poké Ball', 'Arceus', 'Leggendari', 'Professor Oak', 'Evoluzioni', 'Lavandonia', 'Centro Pokémon', 'Satoshi Tajiri'],
+["Corse d'auto", 'Formula 1', 'Pit stop', 'Circuito', 'Grand Prix', 'Nascar', 'Pole position', 'Monza', 'Rally', 'Le Mans', 'Accelerazione', 'Chicane', 'Box', 'Lewis Hamilton', 'Safety car', 'Podio'],
+['Paolo Villaggio', 'Fantozzi', 'Genova', 'Pina', 'Giandomenico Fracchia', 'Megaditta', 'Fabrizio De André', 'La corazzata Potëmkin', 'Roma', 'Satira', 'Sampdoria', 'Calboni', 'Professor Kranz', 'Hotel Transylvania 2', 'Mariangela', 'Goriziana']
 ]
