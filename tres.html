@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <p>Classifica:</p>
+        <p id="output"></p>
+		<button onclick="avanti()">avanti</button>
+    </div>
+    <script>
+		const storedPoints = sessionStorage.getItem("punti");
+        const punti = JSON.parse(storedPoints);
+		console.log(punti);
+		let puntiString = '';
+		for (let i = 0; i < (punti.length-1)/2; i++) puntiString += punti[i]+" .... "+punti[i+(punti.length-1)/2]+'<br>';
+		document.getElementById('output').innerHTML = puntiString;
+        function avanti() {
+            window.location.href = "unos.html";
+        }
+
+    </script>
+</body>
+</html>

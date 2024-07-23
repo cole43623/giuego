@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #007BFF;
+            background-color: #fff;
+            color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button-container button.selected {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .confirm-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #28a745;
+            background-color: #fff;
+            color: #28a745;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .confirm-button:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="nome"></h1>
+    <div class="button-container" id="buttonContainer">
+       <script src="lisa.js"></script>
+    </div>
+    <button class="confirm-button" id="confirmButton">Conferma</button>
+
+    <script>
+        const sampleSize = 8;
+		const storedPoints = sessionStorage.getItem("punti");
+        const punti = JSON.parse(storedPoints);
+		document.getElementById('nome').textContent = punti[punti[punti.length - 1]]+" seleziona una categoria";
+        function getRandomSample(arr, size) {
+            let shuffled = arr.slice(0), i = arr.length, temp, index;
+            while (i--) {
+                index = Math.floor((i + 1) * Math.random());
+                temp = shuffled[index];
+                shuffled[index] = shuffled[i];
+                shuffled[i] = temp;
+            }
+            return shuffled.slice(0, size);
+        }
+
+        const sample = getRandomSample(Lisa, sampleSize);
+        const buttonContainer = document.getElementById('buttonContainer');
+
+        sample.forEach(Lisa => {
+            const button = document.createElement('button');
+            button.textContent = Lisa[0];
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.button-container button').forEach(btn => btn.classList.remove('selected'));
+                button.classList.add('selected');
+            });
+            buttonContainer.appendChild(button);
+        });
+
+        document.getElementById('confirmButton').addEventListener('click', () => {
+            const selectedButton = document.querySelector('.button-container button.selected');
+            if (selectedButton) {
+                console.log(`You selected: ${selectedButton.textContent}`);
+				for (let i = 0; i < Lisa.length; i++) {
+					if (Lisa[i][0] == selectedButton.textContent) var url = 'dos.html?nr=' + i;;
+				}
+				window.location.href = url;
+            } else {
+                alert('Please select an option.');
+            }
+        });
+    </script>
+</body>
+</html>
