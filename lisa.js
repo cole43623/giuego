@@ -1,7 +1,7 @@
 const Lisa =[
 ['Il Signore degli Anelli: Il Ritorno del Re', 'Frodo Baggins', 'Aragorn', 'Legolas', 'Gandalf', 'Gollum', 'Minas Tirith', 'Sauron', 'Viggo Mortensen', 'Andy Serkis', 'Peter Jackson', 'Anello', 'Terra di Mezzo', 'Rohan', 'Battaglia dei Campi del Pelennor', 'Eowyn'],
 ["Star Wars", 'Luke Skywalker', 'Darth Vader', 'Han Solo', 'Leia Organa', 'Yoda', 'Lando Calrissian', 'Hoth', 'Bespin', 'Millennium Falcon', 'John Williams', 'George Lucas', 'Carbonite', 'Forza', 'Tauntaun', 'Imperatore Palpatine'],
-['Game of Thrones', 'Jon Snow', 'Daenerys Targaryen', 'Tyrion Lannister', 'Arya Stark', 'Sansa Stark', 'Bran Stark', 'Cersei Lannister', 'Westeros', 'Draghi', 'Trono di Spade', 'Inverno', 'House of the Dragon', 'Muro', 'Esercito dei morti', 'George R.R. Martin'],
+['Trono di Spade', 'Jon Snow', 'Daenerys Targaryen', 'Tyrion Lannister', 'Arya Stark', 'Sansa Stark', 'Bran Stark', 'Cersei Lannister', 'Westeros', 'Draghi', 'HBO', 'Inverno', 'House of the Dragon', 'Muro', 'Esercito dei morti', 'George R.R. Martin'],
 ['Marvel Cinematic Universe (MCU)', 'Iron Man', 'Captain America', 'Thor', 'Hulk', 'Vedova nera', 'Occhio di Falco', 'Thanos', 'Avengers', 'Gemme dell\'infinito', 'Nick Fury', 'Wanda Maximoff', 'Doctor Strange', 'Guardiani della Galassia', 'Spider-Man', 'Kevin Feige'],
 ['Giappone', 'Tokyo', 'Sushi', 'Samurai', 'Monte Fuji', 'Shintoismo', 'Geisha', 'Manga', 'Shinkansen', 'Kimono', 'Ikebana', 'Harajuku', 'Kyoto', 'J-pop', 'Origami', 'Tempio Senso-ji'],
 ['Italia', 'Roma', 'Pizza', 'Colosseo', 'Rinascimento', 'Leonardo da Vinci', 'Venezia', 'Moda', 'Ferrari', 'Pasta', 'Vaticano', 'Firenze', 'Mare Mediterraneo', 'Gelato', 'Mafia', 'Michelangelo'],
@@ -106,5 +106,6 @@ const Lisa =[
 ['NASA', 'Apollo', 'Space Shuttle', 'Hubble', 'Rover marziano', 'Stazione spaziale internazionale', 'Neil Armstrong', 'Saturn V', 'Houston', 'Allunaggio', 'Astronauta', 'Cape Canaveral', 'Voyager', 'Dwight D. Eisenhower', 'JPL (Jet Propulsion Laboratory)', 'Orion'],
 ['The Simpsons', 'Divano', 'Marge', 'Centrale nucleare', 'Lisa', 'Maggie', 'Springfield', 'Krusty', 'Birra Duff', 'Ned Flanders', 'Mr. Burns', 'Taverna di Boe', 'Grattachecca e Fichetto', 'Telespalla Bob', 'Ciambelle', 'La paura fa novanta'],
 ['James Bond', '007', 'MI6', 'Aston Martin', 'Licenza di uccidere', 'Daniel Craig', 'Casino Royale', 'Goldfinger', 'Spectre', 'Martini', 'Gadget', 'Skyfall', 'Sean Connery', 'Roger Moore', 'Bond Girl', 'Walther PPK'],
-['Anime', 'Naruto', 'One Piece', 'Studio Ghibli', 'MAPPA', 'Manga', 'Crunchyroll', 'Giappone', 'Kodomo', 'Dragon Ball', 'Evangelion', 'Cosplay', 'Otaku', 'Shonen', 'VVVVID', 'Seinen']
+['Anime', 'Naruto', 'One Piece', 'Studio Ghibli', 'MAPPA', 'Manga', 'Crunchyroll', 'Giappone', 'Kodomo', 'Dragon Ball', 'Evangelion', 'Cosplay', 'Otaku', 'Shonen', 'VVVVID', 'Seinen'],
+['Alieni', 'UFO', 'E.T.', 'Extraterrestre', 'Area 51', 'Ridley Scott', 'SETI', 'X-Files', 'Incontri ravvicinati', 'Grigi', 'Marte', 'Astronave', 'Cerchi nel grano', 'Paradosso di Fermi', 'Fantascienza', 'Nordici']
 ]
