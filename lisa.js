@@ -1,6 +1,6 @@
 const Lisa =[
 ['Il Signore degli Anelli: Il Ritorno del Re', 'Frodo Baggins', 'Aragorn', 'Legolas', 'Gandalf', 'Gollum', 'Minas Tirith', 'Sauron', 'Viggo Mortensen', 'Andy Serkis', 'Peter Jackson', 'Anello', 'Terra di Mezzo', 'Rohan', 'Battaglia dei Campi del Pelennor', 'Eowyn'],
-["Star Wars: L'Impero colpisce ancora", 'Luke Skywalker', 'Darth Vader', 'Han Solo', 'Leia Organa', 'Yoda', 'Lando Calrissian', 'Hoth', 'Bespin', 'Millennium Falcon', 'John Williams', 'George Lucas', 'Carbonite', 'Forza', 'Tauntaun', 'Imperatore Palpatine'],
+["Star Wars", 'Luke Skywalker', 'Darth Vader', 'Han Solo', 'Leia Organa', 'Yoda', 'Lando Calrissian', 'Hoth', 'Bespin', 'Millennium Falcon', 'John Williams', 'George Lucas', 'Carbonite', 'Forza', 'Tauntaun', 'Imperatore Palpatine'],
 ['Game of Thrones', 'Jon Snow', 'Daenerys Targaryen', 'Tyrion Lannister', 'Arya Stark', 'Sansa Stark', 'Bran Stark', 'Cersei Lannister', 'Westeros', 'Draghi', 'Trono di Spade', 'Inverno', 'House of the Dragon', 'Muro', 'Esercito dei morti', 'George R.R. Martin'],
 ['Marvel Cinematic Universe (MCU)', 'Iron Man', 'Captain America', 'Thor', 'Hulk', 'Vedova nera', 'Occhio di Falco', 'Thanos', 'Avengers', 'Gemme dell\'infinito', 'Nick Fury', 'Wanda Maximoff', 'Doctor Strange', 'Guardiani della Galassia', 'Spider-Man', 'Kevin Feige'],
 ['Giappone', 'Tokyo', 'Sushi', 'Samurai', 'Monte Fuji', 'Shintoismo', 'Geisha', 'Manga', 'Shinkansen', 'Kimono', 'Ikebana', 'Harajuku', 'Kyoto', 'J-pop', 'Origami', 'Tempio Senso-ji'],
