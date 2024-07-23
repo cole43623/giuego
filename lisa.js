@@ -87,5 +87,13 @@ const Lisa =[
 ['Impero Romano', 'Cesare', 'Augusto', 'Senato', 'Legione', 'Colosseo', 'Pompei', 'Acquedotto', 'Gladiatori', 'Costantinopoli', 'Pax Romana', 'Pantheon', 'Giulio Cesare', 'SPQR', 'Cicerone', 'Imperatore'],
 ['Seconda Guerra Mondiale', 'D-Day', 'Nazismo', 'Olocausto', 'Pearl Harbor', 'Churchill', 'Guerra lampo', 'Stalin', 'Hiroshima', 'Campi di concentramento', 'Partigiani', 'Alleati', 'Asse', 'Progetto Manhattan', 'Franklin D. Roosevelt', 'Processo di Norimberga'],
 ['Ulisse', 'Odissea', 'James Joyce', 'Ettore', 'Penelope', 'Scilla e Cariddi', 'Polifemo', 'Ithaca', 'Circe', 'Telemaco', 'Nausicaa', 'Sirene', 'Troia', 'Nessuno', 'Argo', 'Omero'],
-['Poker', 'Asso', 'Scala', 'Adriano Celentano', 'Colore' , 'Full', 'Chip', 'Buio', 'Check', 'All-in', 'Vedere', 'Doppia coppia', 'Casinò', 'Texas hold \'em', 'Dealer', 'Poker face']
+['Poker', 'Asso', 'Scala', 'Adriano Celentano', 'Colore' , 'Full', 'Chip', 'Buio', 'Check', 'All-in', 'Vedere', 'Doppia coppia', 'Casinò', 'Texas hold \'em', 'Dealer', 'Poker face'],
+['SpongeBob', 'Bikini Bottom', 'Patrick', 'Squiddi', 'Krabby Patty', 'Mr. Krabs', 'Sandy Cheeks', 'Plankton', 'Ananas', 'Gary', 'Meduse', 'Patente', 'Krusty Krab', 'Nickelodeon', 'Keanu Reeves', 'Claudio Moneta'],
+['Pirati dei Caraibi', 'Jack Sparrow', 'Perla Nera', 'Will Turner', 'Elizabeth Swann', 'Davy Jones', 'Tortuga', 'Barbossa', 'Sirene', 'Maledizione', 'Orlando Bloom', 'Commodoro Norrington', 'Olandese Volante', 'Voodoo', 'Galeone', 'Kraken'],
+['Dragon Ball', 'Fusione', 'Saiyan', 'Kamehameha', 'Vegeta', 'Giorgio Vanni', 'Shenron', 'Bulma', 'Scimmioni', 'Trunks', 'Namek', 'Piccolo', 'Cell', 'Majin Buu', 'Toriyama', 'Capsule Corporation'],
+['Antica Grecia', 'Atene', 'Partenone', 'Olimpiadi', 'Mitologia', 'Acropoli', 'Filosofia', 'Sparta', 'Democrazia', 'Platone', 'Omero', 'Isole Cicladi', 'Zeus', 'Egeo', 'Templi', 'Teatro'],
+['Titanic', 'RMS', 'Iceberg', 'Southampton', 'Leonardo DiCaprio', 'Rose', '1912', 'Jack Dawson', 'White Star Line', 'Titan', 'James Cameron', 'Sopravvissuti', 'Prima classe', 'Inaffondabile', "Cuore dell'oceano", 'New York'],
+['Brasile', 'Rio de Janeiro', 'Carnevale', 'Amazonia', 'Samba', 'Brasilia', 'Copacabana', 'Pelé', 'Caipirinha', 'Favelas', 'Calcio', 'Cristo Redentore', 'Pantanal', 'Bossa Nova', 'Café', 'Amazzoni'],
+['Gandhi', 'Pacifismo', 'Indipendenza', 'Marcia del sale', 'Ahimsa', 'Mahatma', 'Satyagraha', 'India', 'Avvocato', 'Assassinio', 'Sudafrica', 'Harijan', 'Autogoverno', 'Bapu', 'Dharma', 'Treno'],
+['Einstein', 'Relatività', 'E=mc²', 'Fisica', 'Nobel', 'Bomba atomica', 'Spazio-tempo', 'Cervello', 'Infinito', 'Quanti', 'Bose', 'Curvatura', 'Atomo', 'Universo', 'Energia', 'Germania']
 ]
