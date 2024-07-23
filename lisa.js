@@ -17,7 +17,7 @@ const Lisa =[
 ['Cucina Molecolare', 'Sferificazione', 'Gelificazione', 'Nitrogeno liquido', 'Ferran Adrià', 'Heston Blumenthal', 'Schiume', 'Emulsioni', 'Alginate', 'Texturas', 'Cottura a bassa temperatura', 'Microonde', 'Additivi alimentari', 'Polveri', 'Gastronomia moderna', 'Esperimenti culinari'],
 ['Stephen King', 'It', 'Shining', 'Carrie', 'Misery', 'Maine', 'Horror', 'Dark Tower', 'Pet Sematary', 'Pennywise', 'Doctor Sleep', 'The Stand', 'Castle Rock', 'Cujo', 'Richard Bachman', 'Romanzi'],
 ['Egittologia', 'Piramidi', 'Faraoni', 'Cleopatra', 'Sfinge', 'Tutankhamon', 'Nilo', 'Geroglifici', 'Stele di Rosetta', 'Valle dei Re', 'Sarcofago', 'Ramses', 'Ankh', 'Tempio di Karnak', 'Antico Egitto', 'Mummificazione'],
-['Scacchi', 'Re', 'Regina', 'Cavallo', 'Torre', 'Alfiere', 'Pedone', 'Scacco matto', 'Gambetto di Donna', 'ELO', 'Grande Maestro', 'Fischer', 'Apertura siciliana', 'Scacchiera', 'Finale', 'Strategia'],
+['Scacchi', 'En passant', 'Regina', 'Cavallo', 'Arrocco', 'Alfiere', 'Pedone', 'Scacco matto', 'Gambetto di Donna', 'ELO', 'Grande Maestro', 'Bobby Fischer', 'Apertura siciliana', 'Scacchiera', 'Finale', 'Strategia'],
 ['Yoga', 'Asana', 'Meditazione', 'Pranayama', 'Namaste', 'Vinyasa', 'Hatha', 'Bikram', 'Chakra', 'Kundalini', 'Shavasana', 'Guru', 'Mantra', 'Elasticità', 'Mindfulness', 'Om'],
 ['Astronomia', 'Galassia', 'Nebulosa', 'Pianeti', 'Stelle', 'Telescopio', 'Via Lattea', 'Costellazioni', 'Buco nero', 'Supernova', 'Andromeda', 'Big Bang', 'Esopianeti', 'Charles Messier', 'Spettroscopia', 'Osservatorio'],
 ['Leonardo da Vinci', 'Mona Lisa', 'Cenacolo', 'Firenze', 'Inventore', 'Anatomia', 'Codice Atlantico', 'Disegni', 'Uomo Vitruviano', 'Scienza', 'Pittura', 'Ingegneria', 'Rinascimento', 'Paracadute', 'Elicottero', 'Genio'],
