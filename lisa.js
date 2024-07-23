@@ -86,5 +86,6 @@ const Lisa =[
 ['Beatles', 'Apple Records', 'Yōko Ono', 'George Harrison', 'Ringo Starr', 'Abbey Road', 'Sgt. Pepper’s', 'Sir', 'Let It Be', 'Yellow Submarine', 'Liverpool', 'Revolver', 'Help!', 'Lucy in the Sky with Diamonds', 'Stuart Sutcliffe', 'The White Album'],
 ['Impero Romano', 'Cesare', 'Augusto', 'Senato', 'Legione', 'Colosseo', 'Pompei', 'Acquedotto', 'Gladiatori', 'Costantinopoli', 'Pax Romana', 'Pantheon', 'Giulio Cesare', 'SPQR', 'Cicerone', 'Imperatore'],
 ['Seconda Guerra Mondiale', 'D-Day', 'Nazismo', 'Olocausto', 'Pearl Harbor', 'Churchill', 'Guerra lampo', 'Stalin', 'Hiroshima', 'Campi di concentramento', 'Partigiani', 'Alleati', 'Asse', 'Progetto Manhattan', 'Franklin D. Roosevelt', 'Processo di Norimberga'],
-['Ulisse', 'Odissea', 'James Joyce', 'Ettore', 'Penelope', 'Scilla e Cariddi', 'Polifemo', 'Ithaca', 'Circe', 'Telemaco', 'Nausicaa', 'Sirene', 'Troia', 'Nessuno', 'Argo', 'Omero']
+['Ulisse', 'Odissea', 'James Joyce', 'Ettore', 'Penelope', 'Scilla e Cariddi', 'Polifemo', 'Ithaca', 'Circe', 'Telemaco', 'Nausicaa', 'Sirene', 'Troia', 'Nessuno', 'Argo', 'Omero'],
+['Poker', 'Asso', 'Scala', 'Adriano Celentano', 'Colore' , 'Full', 'Chip', 'Buio', 'Check', 'All-in', 'Vedere', 'Doppia coppia', 'Casinò', 'Texas hold \'em', 'Dealer', 'Poker face']
 ]
