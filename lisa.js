@@ -21,7 +21,7 @@ const Lisa =[
 ['Yoga', 'Asana', 'Meditazione', 'Pranayama', 'Namaste', 'Vinyasa', 'Hatha', 'Bikram', 'Chakra', 'Kundalini', 'Shavasana', 'Guru', 'Mantra', 'Elasticità', 'Mindfulness', 'Om'],
 ['Astronomia', 'Galassia', 'Nebulosa', 'Pianeti', 'Stelle', 'Telescopio', 'Via Lattea', 'Costellazioni', 'Buco nero', 'Supernova', 'Andromeda', 'Big Bang', 'Esopianeti', 'Charles Messier', 'Spettroscopia', 'Osservatorio'],
 ['Leonardo da Vinci', 'Mona Lisa', 'Cenacolo', 'Firenze', 'Inventore', 'Anatomia', 'Codice Atlantico', 'Disegni', 'Uomo Vitruviano', 'Scienza', 'Pittura', 'Ingegneria', 'Rinascimento', 'Paracadute', 'Elicottero', 'Genio'],
-['Fotografia', 'Reflex', 'Obiettivo', 'ISO', 'Diaframma', 'Esposizione', 'Photoshop', 'Ritratto', 'Paesaggio', 'Bianco e Nero', 'Composizione', 'Fotogiornalismo', 'Macro', 'Post-produzione', 'Scatto', 'Apertura'],
+['Fotografia', 'Reflex', 'Obiettivo', 'ISO', 'Diaframma', 'Esposizione', 'Photoshop', 'Ritratto', 'Paesaggio', 'Bianco e Nero', 'Flash', 'Nikon', 'Macro', 'Post-produzione', 'Scatto', 'Apertura'],
 ['Moda', 'Haute Couture', 'Passerella', 'Designer', 'Vogue', 'Fashion Week', 'Tendenze', 'Collezione', 'Manichino', 'Sfilata', 'Accessori', 'Stile', 'Pret-a-porter', 'Boutique', 'Modella', 'Tessuti'],
 ['Roberto Benigni', 'La Vita è Bella', 'Oscar', 'Attore', 'Regista', 'Comico', 'Dante', 'Pinocchio', 'Sanremo', 'Film', 'Firenze', 'Johnny Stecchino', 'Tigre e la neve', 'Cinema', 'Toscana', 'Spettacolo'],
 ['Milano', 'Duomo', 'La Scala', 'Navigli', 'Moda', 'Brera', 'Triennale', 'Expo', 'Sforzesco', 'Pirelli', 'Galleria Vittorio Emanuele', 'San Siro', 'Bocconi', 'Finanza', 'Via Montenapoleone', 'Aperitivo'],
