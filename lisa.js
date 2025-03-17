@@ -55,7 +55,7 @@ const Lisa =[
 ['Internet e Social Media', 'Twitter', 'Instagram', 'Hashtag', 'Meme', 'Influencer', 'Algoritmo', 'Blog', 'Viralità', 'Commenti', 'Post', 'Storytelling', 'Engagement', 'Profilo', 'Analytics', 'Comunicazione'],
 ['Esercizio Fisico e Fitness', 'Cardio', 'Allenamento', 'Pilates', 'Yoga', 'Circuito', 'Endorfine', 'Routine', 'Recupero', 'Personal trainer', 'Flexibilità', 'Forza', 'Resistenza', 'Aerobico', 'Stretching', 'Obiettivi'],
 ["Cinema Anni '80", 'Indiana Jones', 'Ritorno al Futuro', 'Ghostbusters', 'Spielberg', 'Iconico', 'Avventura', 'Cult', 'Trama', 'Effetti speciali', 'Nostalgia', 'Teen movie', 'Blockbuster', 'E.T.', 'Colonna sonora', 'I goonies'],
-['Hobbie', 'Giardinaggio', 'Lettura', 'Pittura', 'Fotografia', 'Cucinare', 'Escursionismo', 'Modellismo', 'Collezionismo', 'Cucito', 'Birdwatching', 'Creatività', 'Relax', 'Manualità', 'Treni', 'Passione'],
+['Hobby', 'Giardinaggio', 'Lettura', 'Pittura', 'Fotografia', 'Cucinare', 'Escursionismo', 'Modellismo', 'Collezionismo', 'Cucito', 'Birdwatching', 'Creatività', 'Relax', 'Manualità', 'Treni', 'Passione'],
 ['"Lost"', 'Isola', 'Sopravvivenza', 'Mistero', 'Aereo', 'Locke', 'Fumo', 'Flashback', 'Hurley', 'Charles Widmore', 'Botola', 'Desmond', 'Intrigo', 'Plot twist', 'Sci-fi', 'Monoliti'],
 ['"Harry Potter"', 'Magia', 'Hogwarts', 'Voldemort', 'Bacchetta', 'Quidditch', 'Grifondoro', 'Malfoy', 'Incantesimi', 'Hermione', 'Pluffa', 'Horcrux', 'J. K. Rowling', 'Pensatoio', 'Mangiamorte', 'Serpeverde'],
 ['"Breaking Bad"', 'Walter White', 'Metanfetamine', 'Jesse Pinkman', 'Heisenberg', 'Criminalità', 'Albuquerque', 'Blue meth', 'Riciclaggio', 'Gustavo Fring', 'Better call Saul', 'El Camino', 'Conflitto', 'Cartello', 'Drammatico', 'Los pollos hermanos'],
